@@ -1,0 +1,69 @@
+/*this is the tableau style page */
+body {              /* doesnt need a . because this is a known html element*/
+    background-color:rgb(216, 204, 204);
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .common {
+       /* background-color: rgb(221, 223, 138); */
+        /* border: solid 2px rgb(199, 163, 163); */
+        position: absolute;
+    }
+    
+    .header {
+        top: 5px;
+        left: 5px;
+        right: 5px; /* what ANCHORING IN 5 from left and right does is it makes it grow when page gets bigger and shrink when smaller*/
+        height: 100px;
+        z-index: 2;
+        border-bottom: solid 1px rgb(97, 180, 111);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    
+    .leftmenu {
+        top: 114px; /* needs to be 100 + 5 top + % bottom + 2 + 2 on the top and bottom common border */
+        left: 5px;
+        width: 100px;
+        bottom: 64px; /*resize up and down*/
+        z-index: 1;
+        padding-top: 45px;
+        border-right: solid 1px rgb(179, 89, 104);
+    }
+    
+    .mainbody{
+        top: 114px;
+        bottom: 64px;
+        left: 114px;
+        right: 114px;
+        padding-right:5px
+    }
+    
+    .rightmenu{
+        top: 114px;
+        bottom: 64px;
+        right: 5px; /* 5 pixals in from right*/
+        width: 100px;
+        border-left: solid 1px rgb(179, 89, 104);
+        padding-left: 5px;
+    }
+    
+    .footer{
+        bottom: 5px;
+        height: 10px; /*(64 - 2 + 2 + 5 + 5)*/
+        left: 5px;
+        right: 5px;
+        font-size: 6px;
+        color: rgb(58, 121, 63);
+        text-align: center;
+        position: fixed;
+    }
+    
+    h1{
+    text-align: center;
+    }
+    .subheader {
+    float: right;
+    
+    }
+    /* this is for positioning*/
