@@ -32,6 +32,7 @@ body {
     padding-top: 150;
 }
 
+/*this is to fix tablau charts and stop them from overriding caption spaces*/
 .Taboverlap{
     position: relative;
     padding-right: 5px;
@@ -41,11 +42,10 @@ body {
 .footer{
     bottom: 15px;
     height: 20px;
-    /*(64 - 2 + 2 + 5 + 5)*/
     left: 5px;
     right: 5px;
     font-size: 15px;
-    padding-top: 10;
+    padding-top: 20;
     color: rgb(14, 12, 14);
     text-align: center;
     position: static;
