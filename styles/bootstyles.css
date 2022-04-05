@@ -39,19 +39,6 @@ body {
     padding-bottom: 5px;
 }
 
-.footer{
-    bottom: 15px;
-    height: 20px;
-    left: 5px;
-    right: 5px;
-    font-size: 15px;
-    padding-top: 20;
-    color: rgb(14, 12, 14);
-    text-align: center;
-    position: static;
-    border-color: coral;
-    background-color: coral;
-}
 
 h1{
     padding-top: 6;
@@ -110,3 +97,16 @@ caption {
   background-color: coral;
   position: relative;
 }
+
+footer{
+    bottom: 15px;
+    height: 20px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    padding-top: 20;
+    color: rgb(14, 12, 14);
+    text-align: center;
+    position: static;
+    border-color: coral;
+    background-color: coral;}
