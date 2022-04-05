@@ -90,6 +90,7 @@ caption {
     text-align: center;
     color: yellow;
     font-weight: bold;
+    max-height: 50px;
 }
 
 .center1{
