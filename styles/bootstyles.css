@@ -29,7 +29,8 @@ body {
     bottom: 64px;
     left: 114px;
     right: 114px;
-    padding-right: 5px padding-bottom:15px
+    padding-right: 5px;
+    padding-bottom:15px;
 }
 
 
@@ -91,14 +92,21 @@ li a:hover {
 }
 
 
-
 caption {
     text-align: center;
-    color: yellow;
+    color: rgb(5, 5, 5);
     font-weight: bold;
 }
 
 .center1{
   text-align: center;
-  background-color: coral
+  background-color: coral;
+  position: relative;
 }
+
+.fixT {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }

@@ -52,6 +52,7 @@ caption{
 
 .CI {
   display: block;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
