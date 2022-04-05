@@ -26,11 +26,10 @@ caption{
   color: rgb(153, 194, 164);
   padding: 15px 32px;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  text-align: center;
+  text-align: right;
 }
 
 .button1{background-color: #4CAF50;} /* Green */
